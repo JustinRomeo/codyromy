@@ -1,0 +1,16 @@
+body{
+    height:200vh;
+    width: 200%;
+    background-color: green;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.Card{
+
+    height: 400px;
+    width: 350px;
+    background-color: whitesmoke;
+    margin: 10px;
+    border-radius: 15px;
+}

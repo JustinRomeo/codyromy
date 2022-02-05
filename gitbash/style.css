@@ -1,0 +1,143 @@
+/* Master Styles*/
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    width:100%;
+}
+.container
+{
+    height:1000px;
+    width: 100%;
+}
+/* Hero page Styles*/
+.heroPage{
+    width:100%;
+    height: 650px;
+    background-image: url(./images/cover.png);
+    color: white;
+    background-size: cover;
+    background-position: center;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:90px;
+    width: 100%;
+}
+.logo{
+    margin-left:20px;
+}
+.Navs{
+    display: flex;
+    justify-content: space-around;
+    width: 600px;
+    margin-right: 20px;
+    height: 100%;
+    align-items: center;
+}
+.Navs>a{
+    text-decoration: none;
+    color:white;
+}
+.btn{
+    width:90px;
+    height:40px;
+    background:transparent;
+    border:2px solid whitesmoke;
+    color: whitesmoke;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height:70%;
+}
+.btn1{
+    padding: 10px;
+    margin-right: 20px;
+}
+.btn2{
+    padding: 10px;
+    background:transparent;
+    border:2px solid white;
+    color:white;
+}
+.bold{
+    font-weight:bold;
+    font-size:50px;
+}
+.italic{
+    font-style:italic;
+}
+/*Cards Styles*/
+.cardsContainer{
+    width:100%;
+    display: flex;
+    justify-content:space-around;
+    height: 500px;
+
+}
+.firstCard, .secondCard, .thirdCard{
+    width: 23%;
+    height:230px;
+    background-color: whitesmoke;
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset; */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+    border-radius: 15px;
+    justify-content: center;
+}
+
+.up_contain{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+}
+.dot{
+    width:20px;
+    height:20px;
+}
+.left>img{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+.left{
+    display: flex;
+    justify-content: space-around ; 
+    color: black;
+}
+.comment>p{
+    width: 80%;
+    padding-left: 10px;
+    font-size: 12px;
+    color: black;
+}
+.post>img{
+    width: 100px;
+    height:100px;
+}
+.left_icons>img{
+    width:10px;
+    height:10px;
+}
+.right_icons>img{
+    width:10px;
+    height:10px;
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+}
+.comment{
+    width:90%; 
+}
+.follow{
+    width:100%;
+}
